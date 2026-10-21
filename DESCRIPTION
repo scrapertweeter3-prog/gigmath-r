@@ -1,0 +1,19 @@
+Package: gigmath
+Type: Package
+Title: True Hourly Rate for Gig-Work Offers After Fees and Unpaid Time
+Version: 0.1.0
+Authors@R: person("James", "Verlander", email = "scrapertweeter3@gmail.com", role = c("aut", "cre"))
+Maintainer: James Verlander <scrapertweeter3@gmail.com>
+Description: The payout a gig app quotes divides by on-task time only; the
+    waiting, the empty drive back, and the invoicing never make that number.
+    gigmath() recomputes an offer the way the week actually plays out:
+    platform fee, mileage at your real cost per mile, a self-employment
+    tax estimate, and every unpaid minute added to the clock. Flags offers
+    below your floor, losing money outright, hiding 40%+ of their time
+    unpaid, or paying under half the headline rate. Companion to the
+    receipts-first gig math on ExtraHustles <https://extrahustles.com>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://extrahustles.com
+BugReports: https://github.com/scrapertweeter3-prog/gigmath/issues
+RoxygenNote: 7.3.1
