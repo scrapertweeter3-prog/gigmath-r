@@ -15,3 +15,13 @@ gig_true_hourly(23, 40, 25, fee = 15, miles = 18,
 # $headline_rate 34.5  $true_hourly 11.23  $net 12.17  $unpaid_pct 38.5
 # $flags "below floor" "true rate under half headline"
 ```
+
+## Install
+
+```r
+install.packages("gigmath", repos = c(
+  "https://scrapertweeter3-prog.r-universe.dev",
+  "https://cloud.r-project.org"))
+```
+
+Gig-Work True Hourly Rate: benchmark math from the Poket Dev research desk.
