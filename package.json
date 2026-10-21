@@ -1,0 +1,8 @@
+{
+  "name": "gigmath-r",
+  "version": "0.1.0",
+  "description": "True hourly rate for gig-work offers after fees, mileage, taxes, and unpaid time",
+  "license": "MIT",
+  "repository": "https://github.com/scrapertweeter3-prog/gigmath-r",
+  "homepage": "https://extrahustles.com"
+}
